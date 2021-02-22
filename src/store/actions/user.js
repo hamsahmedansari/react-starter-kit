@@ -1,5 +1,5 @@
-import Constants from "../constants";
-import { http } from "../../services";
+import Constants from "@store/constants";
+import http  from "@http";
 
 const handleLogin = params => {
   return async (dispatch, getState) => {

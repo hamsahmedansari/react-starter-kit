@@ -1,7 +1,10 @@
 import React from "react";
 import { Switch, Redirect } from "react-router-dom";
-import Route from "./route";
-import { HomeContainer, LoginContainer, PageNotFound } from "../containers";
+
+import Route from "@routers/route";
+
+import { HomeContainer, LoginContainer, PageNotFound } from "@containers";
+
 const Router = props => {
   return (
     <Switch>
