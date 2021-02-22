@@ -1,6 +1,7 @@
 import React from "react";
 import { Route as ReactRouter, Redirect } from "react-router-dom";
-import { Footer, Header, Layout } from "../components";
+
+import { Footer, Header, Layout } from "@components";
 
 const PrivateRoute = props => {
   const isAuthorized = true;

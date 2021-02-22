@@ -1,4 +1,4 @@
-import { config } from "../common";
+import config  from "@common/config";
 
 export default function http(method, api_url, body, headers = false) {
   const url = config.BASE_URL + api_url;
